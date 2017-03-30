@@ -1,0 +1,27 @@
+
+emmanuel@ubuntu:/home/frappe/frappe-bench/apps/phonebook_management$ export PS1="emmanuel $ "
+
+emmanuel $ ls
+emmanuel $ sudo su - frappe
+frappe@ubuntu:~$ cd frappe-bench/apps/
+frappe@ubuntu:~/frappe-bench/apps$ ll -h
+frappe@ubuntu:~/frappe-bench/apps$ cd phonebook_management/
+frappe@ubuntu:~/frappe-bench/apps/phonebook_management$ git init
+frappe@ubuntu:~/frappe-bench/apps/phonebook_management$ git status
+frappe@ubuntu:~/frappe-bench/apps/phonebook_management$ git add -A
+frappe@ubuntu:~/frappe-bench/apps/phonebook_management$ git status
+frappe@ubuntu:~/frappe-bench/apps/phonebook_management$ git commit -m "First commit"
+frappe@ubuntu:~/frappe-bench/apps/phonebook_management$ git config --global user.email "manuelortegamatos@gmail.com"
+frappe@ubuntu:~/frappe-bench/apps/phonebook_management$ git config --global user.name "manuelortegamatos" 
+frappe@ubuntu:~/frappe-bench/apps/phonebook_management$ git commit -m "First commit"
+frappe@ubuntu:~/frappe-bench/apps/phonebook_management$ git status
+frappe@ubuntu:~/frappe-bench/apps/phonebook_management$ git remote add origin https://github.com/manuelortegamatos/phonebook.git
+frappe@ubuntu:~/frappe-bench/apps/phonebook_management$ git push -u origin master
+
+
+
+
+
+
+
+
